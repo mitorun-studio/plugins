@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="gold" stroke="#000" stroke-width="3" stroke-linejoin="round">
+	<path id="star-dots" d="M58 39L48 8L38 39H5L32 58L22 88L48 69.5L74 88L64 58L91 39H58Z"/>
+	<!--<polygon id="star-original" points="50,0 21,90 98,35 2,35 79,90"/>
+	<path id="star-original" d="M51 3L22 93L99 38H3L80 93L51 3Z"/>
+	<path id="star-lines" d="M48 8L22 88L91 39H5L74 88L48 8Z"/>
+	-->
+</svg>

@@ -8,12 +8,12 @@ const tp = new Typograf({
 		'common/number/fraction',// 1/2 → ½, 1/4 → ¼, 3/4 → ¾ (№19)
 		'common/number/mathSigns',// != → ≠, <= → ≤, >= → ≥, ~= → ≅, +- → ± (№20)
 		//'common/number/times',// x → × (10 x 5 → 10×5) (№21)
-		//'common/punctuation/hellip ',// Замена трёх точек на многоточие (№26)
+		//'common/punctuation/hellip',// Замена трёх точек на многоточие (№26)
 		'common/punctuation/quote',// Расстановка кавычек правильного вида (№27)
 		'common/space/replaceTab',// Замена таба на 4 пробела (№45)
 		'common/symbols/cf',// Добавление ° к C и F (№50)
-		'en-US/dash/main',// Замена дефиса на длинное тире (№52)
-		'ru/dash/main',// Замена дефиса на тире (№63)
+		//'en-US/dash/main',// Замена дефиса на длинное тире (№52)
+		//'ru/dash/main',// Замена дефиса на тире (№63)
 		'ru/dash/surname',// Сокращения с помощью тире (№65)
 		'ru/date/fromISO',// Преобразование дат YYYY-MM-DD к виду DD.MM.YYYY (№71)
 		'ru/number/comma',// Замена точки на запятую в числах (№91)
@@ -73,7 +73,7 @@ async function processDirectory(dirPath) {
 
 async function main() {
 	await processDirectory(inputDir);
-	console.log(`Все файлы были обработаны. Общее кол-во файлов: ${totalFiles}`);
+	console.log(`Все файлы были оттипографированы. Общее количество файлов: ${totalFiles}`);
 }
 
 main();

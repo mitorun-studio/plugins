@@ -1,30 +1,29 @@
 {
-	"name": "mitorun-code",
+	"name": "mitosite-plugins",
 	"version": "1.0.0",
 	"description": "",
 	"keywords": [],
 	"author": "Oleg Mitorun",
 	"browserslist": [
 		"last 3 version",
-		"> 0.5%",
+		"> 0.3%",
 		"not dead",
 		"not ie <= 11",
 		"iOS >= 14"
 	],
 	"devDependencies": {
 		"bem-validate": "^1.1.2",
-		"browser-sync": "^2.27.12",
-		"fs": "^0.0.1-security",
-		"html-validate": "^7.13.2",
+		"browser-sync": "^2.29.3",
+		"html-validate": "^8.0.5",
 		"htmlhint": "^1.1.4",
 		"node-w3c-validator": "^2.0.2",
 		"path": "^0.12.7",
-		"sharp": "^0.32.0",
-		"stylelint": "^14.16.1",
+		"sharp": "^0.32.1",
+		"stylelint": "^15.10.1",
 		"stylelint-color-format": "^1.1.0",
 		"stylelint-declaration-block-no-ignored-properties": "^2.7.0",
-		"stylelint-group-selectors": "^1.0.9",
-		"stylelint-order": "^6.0.2",
+		"stylelint-group-selectors": "^1.0.10",
+		"stylelint-order": "^6.0.3",
 		"typograf": "^7.1.0",
 		"yaspeller": "^8.0.1"
 	}

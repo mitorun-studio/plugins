@@ -25,6 +25,7 @@
 		"stylelint-declaration-block-no-ignored-properties": "^2.7.0",
 		"stylelint-group-selectors": "^1.0.10",
 		"stylelint-order": "^6.0.3",
+		"svgo": "^3.0.2",
 		"typograf": "^7.1.0",
 		"yaspeller": "^8.0.1"
 	}
